@@ -1,0 +1,21 @@
+# Служебные файлы Eclipse/EDT
+.metadata/
+.settings/
+bin/
+*.tmp
+*.log
+
+# Служебные файлы 1С (генерируются автоматически)
+DumpFilesIndex.txt
+ConfigDumpInfo.xml
+
+# Конфигурации поставщиков (бинарные файлы)
+src/Configuration/ParentConfigurations.bin
+src/Configuration/ParentConfigurations/
+
+# Локальные базы разработчика
+*.1CD
+*.CD
+
+# Резервные копии и кэш
+*.dt.bak

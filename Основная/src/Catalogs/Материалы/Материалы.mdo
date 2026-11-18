@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f7e47ba-62a3-45a8-bb27-38870169f2c0">
+  <producedTypes>
+    <objectType typeId="37a788c0-61c4-4ee7-92b9-5065a7ad9e3c" valueTypeId="ab879fa8-a220-4898-8080-8dde8d4a2bf7"/>
+    <refType typeId="7b3e3c58-ad15-44ae-8094-347e478213aa" valueTypeId="88555479-24dc-4dce-aaed-51d52bf5c642"/>
+    <selectionType typeId="cd79a056-8d6f-40e7-8091-5419b64687af" valueTypeId="393e9406-f7e7-4e56-99da-6d5e7f1e414a"/>
+    <listType typeId="308e064a-7c82-404f-938e-c2f09a7e0de1" valueTypeId="f2d2f204-d76e-4a77-ae8b-811987d699c9"/>
+    <managerType typeId="8741f068-7048-4d8e-bddd-97da21cb8ecf" valueTypeId="4edd9ea0-2559-4842-8b01-0c3d052838cd"/>
+  </producedTypes>
+  <name>Материалы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Материалы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Материалы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Материалы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

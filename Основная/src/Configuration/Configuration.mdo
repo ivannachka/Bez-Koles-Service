@@ -40,4 +40,13 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.РаботыАвтосервиса</subsystems>
+  <catalogs>Catalog.Автодетали</catalogs>
+  <catalogs>Catalog.Автомобили</catalogs>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.МаркиАвто</catalogs>
+  <catalogs>Catalog.Материалы</catalogs>
+  <catalogs>Catalog.МоделиАвто</catalogs>
+  <catalogs>Catalog.Работы</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <enums>Enum.ТипВладельца</enums>
 </mdclass:Configuration>

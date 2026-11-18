@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f7427fb-f402-42a2-8a14-abaed162ead1">
+  <producedTypes>
+    <refType typeId="79470701-6ef8-4811-80fa-8be833a70fd7" valueTypeId="2873f23b-b7bc-4c4a-8ee8-fadc268a870d"/>
+    <listType typeId="1981d1b3-eace-4465-a18b-9ef57ce81ced" valueTypeId="aba21725-2e39-4492-82fc-1d57df5d813b"/>
+    <managerType typeId="e65d6701-b949-480b-911e-bf03e2cabb94" valueTypeId="745b3a83-7951-4854-adac-92981e307410"/>
+  </producedTypes>
+  <name>ТипВладельца</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип владельца</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f2c32406-5b86-485e-b999-2b89ffc70812">
+    <name>Физлицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физлицо</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2722dafa-20cc-400a-91fc-5fe34005273c">
+    <name>Юрлицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юрлицо</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

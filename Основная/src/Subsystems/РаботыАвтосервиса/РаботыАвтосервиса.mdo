@@ -7,4 +7,11 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Клиенты</content>
+  <content>Catalog.Автомобили</content>
+  <content>Catalog.МаркиАвто</content>
+  <content>Catalog.МоделиАвто</content>
+  <content>Catalog.Сотрудники</content>
+  <content>Catalog.Работы</content>
+  <content>Catalog.Материалы</content>
 </mdclass:Subsystem>

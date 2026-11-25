@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="100607e6-39b8-4c09-8b3a-036fc88519bc">
+  <name>МастерПриемщик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Мастер приемщик</value>
+  </synonym>
+</mdclass:Role>

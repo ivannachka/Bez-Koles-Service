@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb2bc19a-e001-4269-b24f-14da4deb5693">
+  <producedTypes>
+    <selectionType typeId="38d9b0a4-8651-44c9-b0ef-4c59e8d1a2e8" valueTypeId="22db393b-9dfe-4ca2-9af4-b322a18ea38f"/>
+    <listType typeId="a2b74e72-48cb-4430-829c-3e9393caaf0b" valueTypeId="115694df-f36d-412a-832a-31b714b52710"/>
+    <managerType typeId="4d94c061-8010-485c-b669-84fcef189f9f" valueTypeId="18be18f9-b638-4145-8367-ffa81a184d93"/>
+    <recordSetType typeId="39e2abb7-56eb-4a1b-800c-adf3e09d0565" valueTypeId="4a8386dd-8a8c-4119-aafc-759a9dea8604"/>
+    <recordKeyType typeId="cadd61bf-e65d-491f-b6a0-df0fda11f8db" valueTypeId="59d3829d-2725-43f0-a9a5-3b4ff174b331"/>
+    <recordType typeId="1e03ceeb-63da-42ff-b8d0-b04bd8ee6858" valueTypeId="15eebd2a-869c-475d-ba46-1325253dddbe"/>
+    <recordManagerType typeId="b6516493-7275-4cde-9e43-d998427ea1d8" valueTypeId="86c69ccd-4257-4c9d-8e2f-fdf5a24d5280"/>
+  </producedTypes>
+  <name>СтоимостьНормаЧаса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоимость норма часа</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СтоимостьНормаЧаса.Form.ФормаЗаписи</defaultRecordForm>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="394d382b-f2c6-4c10-be35-00bca59e7195">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="40034aaa-f36e-4c6b-a960-db32f6d83400">
+    <name>АвторИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор изменения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <forms uuid="f6a40fcb-ec4e-410d-be50-854b3cd3685b">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

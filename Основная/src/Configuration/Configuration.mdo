@@ -53,4 +53,5 @@
   <catalogs>Catalog.Работы</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
   <enums>Enum.ТипВладельца</enums>
+  <informationRegisters>InformationRegister.СтоимостьНормаЧаса</informationRegisters>
 </mdclass:Configuration>

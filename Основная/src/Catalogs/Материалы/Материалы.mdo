@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f7e47ba-62a3-45a8-bb27-38870169f2c0">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f7e47ba-62a3-45a8-bb27-38870169f2c0">
   <producedTypes>
     <objectType typeId="37a788c0-61c4-4ee7-92b9-5065a7ad9e3c" valueTypeId="ab879fa8-a220-4898-8080-8dde8d4a2bf7"/>
     <refType typeId="7b3e3c58-ad15-44ae-8094-347e478213aa" valueTypeId="88555479-24dc-4dce-aaed-51d52bf5c642"/>
@@ -30,4 +30,59 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Catalog.Материалы.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="8c8e2ff7-e51d-4067-b66c-f2fe2a84943d">
+    <name>АвтоДеталь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авто деталь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Автодетали</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1fd0a0a9-04ce-488b-9e64-1094383cdca2">
+    <name>МаркаАвто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Марка авто</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МаркиАвто</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="de80b2a2-4b85-4c00-a4d0-f32ccb28ceb8">
+    <name>МодельАвто</name>
+    <synonym>
+      <key>ru</key>
+      <value>Модель авто</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МоделиАвто</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="07a78c43-c48a-432c-a5bd-cfc41ddb9e9f">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

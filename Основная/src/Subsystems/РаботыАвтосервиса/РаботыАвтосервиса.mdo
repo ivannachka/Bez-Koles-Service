@@ -15,4 +15,5 @@
   <content>Catalog.Работы</content>
   <content>Catalog.Материалы</content>
   <content>InformationRegister.СтоимостьНормаЧаса</content>
+  <content>InformationRegister.СтоимостьМатериалов</content>
 </mdclass:Subsystem>

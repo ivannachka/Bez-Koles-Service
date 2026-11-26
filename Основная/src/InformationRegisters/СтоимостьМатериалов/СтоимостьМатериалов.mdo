@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6053d89-116a-4749-a793-c294b9c5b61d">
+  <producedTypes>
+    <selectionType typeId="ecb9399b-dcce-49a9-9024-c10a31aff40f" valueTypeId="006bc86d-c87b-4cb3-a04c-000d2fd3f143"/>
+    <listType typeId="3a069b85-2c73-4186-bbab-de4d4328139b" valueTypeId="c411345b-ac7d-44f0-a739-97752b268bcd"/>
+    <managerType typeId="1d04a281-fa11-4390-980a-cf90ed2e3c8b" valueTypeId="1f6795c4-6d3c-4a28-8874-3649cfd504fc"/>
+    <recordSetType typeId="79dc6acd-fcc2-4b3e-aa35-7d570937f458" valueTypeId="72d631c2-b000-407c-a87c-75969cc95bc6"/>
+    <recordKeyType typeId="64355693-3f5a-4195-9f2c-1b8b310b6ca8" valueTypeId="9cf7ba79-37d4-47bf-8612-bb6a0352e1c9"/>
+    <recordType typeId="93883587-6ff5-4164-b4fb-785ccb72bf42" valueTypeId="2b109e67-83d2-4aed-b68f-1220a2436d4c"/>
+    <recordManagerType typeId="2bae33ee-75d7-4a95-852c-0f93b2471131" valueTypeId="4ae4ecb1-d3b0-4644-9966-e0dcddf22d74"/>
+  </producedTypes>
+  <name>СтоимостьМатериалов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоимость материалов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СтоимостьМатериалов.Form.ФормаЗаписи</defaultRecordForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7c932be8-546d-4020-b342-4a2c431c9fa7">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="b3f7de50-9ce0-4a58-bdbd-632f47e05ebe">
+    <name>АвторИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор изменения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <dimensions uuid="675fe54f-1875-499f-88dc-a6689aec70ec">
+    <name>Материал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Материалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e23ec00a-e2fa-42d8-b31b-4f3f38173e5c">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>
